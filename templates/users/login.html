@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Login Page{% endblock title %}
+
+
+{% block content %}
+
+<h2>Login Page</h2>
+
+<hr>
+<label>Already have an account?</label>
+<a href="{% url 'register' %}">Sign up here!</a>
+
+{% endblock content %}
